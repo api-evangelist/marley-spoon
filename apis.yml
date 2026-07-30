@@ -1,8 +1,29 @@
 aid: marley-spoon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marley-spoon.png
 name: Marley Spoon
-description: Marley Spoon is a company surfaced as a portfolio company of point-nine, union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Marley Spoon is a direct-to-consumer meal-kit and grocery company that delivers
+  weekly recipe boxes with pre-portioned ingredients to households, operating the
+  Marley Spoon and Dinnerly brands across markets in the United States, Australia,
+  and Europe. It runs a consumer web and mobile storefront for menu selection,
+  subscription management, and delivery; there is no public developer portal, API
+  documentation, or partner API program. The company's public GitHub organization
+  hosts only a few internal Ruby infrastructure forks (no client SDKs or specs).
+  Enrichment surfaced no API surface: no /.well-known discovery documents, no
+  security.txt, and no llms.txt. This profile was added to the API Evangelist
+  network as a VC-portfolio lead and remains a company stub with security/identity
+  signals probed rather than an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/marley-spoon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Meal Kit
+- Food Delivery
+- Direct to Consumer
+- Grocery
+- Subscription
+- E-Commerce
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/marley-spoon-domain-security.yml
+- type: WellKnown
+  url: well-known/marley-spoon-well-known.yml
 - type: Website
-  url: http://www.marleyspoon.com
+  url: https://marleyspoon.com
+- type: GitHubOrganization
+  url: https://github.com/marleyspoon
+- type: Support
+  url: https://support.marleyspoon.com/hc/en-us
+- type: Blog
+  url: https://marleyspoon.com/blog
+- type: SignUp
+  url: https://marleyspoon.com/login
+- type: TermsOfService
+  url: https://marleyspoon.com/terms
+- type: PrivacyPolicy
+  url: https://marleyspoon.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
