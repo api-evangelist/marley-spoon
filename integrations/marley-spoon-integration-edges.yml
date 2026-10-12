@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/marley-spoon/integrations
+- https://n8n.io/integrations/marley-spoon/
+- https://composio.dev/toolkits/marley-spoon
+- https://monid.ai/tools/marley-spoon
+checked:
+- https://composio.dev/toolkits/marley-spoon
+- https://monid.ai/tools/marley-spoon
+- https://n8n.io/integrations/marley-spoon/
+- https://zapier.com/apps/marley-spoon/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
